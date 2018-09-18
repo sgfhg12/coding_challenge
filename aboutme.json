@@ -1,0 +1,14 @@
+{   
+    "description": {
+        "Tell me a little bit about yourself?": "My name is Ildi, I am a fullstack developer who transitioned from IT looking for opportunities in the field!"
+    },
+    "tech": {
+        "What excites you about technology?": "I love that technology is constantly evolving and that there is always more to learn."
+    },
+    "techstack": {
+        "What is your preferred technology stack?": "My preferred techstack is NodeJS, ExpressJS, Sequelize, and React-Redux"
+    },
+    "hobbies": {
+        "What are your favorite hobbies?": "I love history, playing video games, and basketball."
+    }
+}

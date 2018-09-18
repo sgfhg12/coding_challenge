@@ -1,0 +1,25 @@
+.title {
+  font-size: 16px;
+  color: #3cb371;
+}
+
+.body {
+  font-size: 12px;
+  color: #4a4a4a;
+}
+
+.list-container {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.list-item {
+  width: 30em;
+}
+
+.error {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}

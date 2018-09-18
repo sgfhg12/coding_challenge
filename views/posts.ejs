@@ -1,0 +1,16 @@
+<!DOCTYPE HTML> 
+<html lang="en">
+<link href="/style.css" rel="stylesheet" type="text/css">
+<body>
+    <div>
+        <ol class="list-container">
+            <% data.forEach(dataObj => { %>
+                <li class="list-item">
+                    <p class="title"> <%= dataObj.title %> </p>
+                    <p class="body"> <%= dataObj.body %> </p>
+                </li>
+            <% }) %>
+        </ol>
+    </div>
+</body>
+</html>
