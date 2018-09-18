@@ -17,6 +17,10 @@ app.listen(port, () => {
     console.log(`LISTENING ON PORT ${port}`)
 })
 
+app.get('/', (req, res) => {
+    res.render('home')
+})
+
 //fetches json api & serves static page 'posts' with data
 app.get('/posts', (req, res, next) => {
     request('https://jsonplaceholder.typicode.com/posts', (err, response) => {
